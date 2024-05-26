@@ -36,8 +36,8 @@ document.getElementById('btn-withdraw').addEventListener('click', function() {
     // update amount
     withdrawTotal.innerText = totalWithdraw;
     balanceTotal.innerText = totalBalance;
-    console.log('Updated withdraw total:', totalWithdraw); // Debugging output
-    console.log('Updated balance:', totalBalance); // Debugging output
+    // console.log('Updated withdraw total:', totalWithdraw); // Debugging output
+    // console.log('Updated balance:', totalBalance); // Debugging output
 
     // clear withdraw field
     withdrawField.value = '';
